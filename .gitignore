@@ -27,8 +27,8 @@ node_modules/
 mobile/.expo-shared/
 mobile/android/
 mobile/ios/
-mobile/.env
 mobile/.env.local
+!mobile/.env
 
 # ─── OS ───────────────────────────────────────────────────────────────────────
 .DS_Store
