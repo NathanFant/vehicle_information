@@ -1,0 +1,38 @@
+# ─── Secrets — never commit ───────────────────────────────────────────────────
+intelligence/.env
+intelligence/.env.local
+intelligence/.env.*.local
+.env
+.env.local
+.env.*.local
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+intelligence/venv/
+intelligence/__pycache__/
+intelligence/**/__pycache__/
+intelligence/**/*.pyc
+intelligence/.pytest_cache/
+intelligence/dist/
+*.egg-info/
+
+# ─── Node / TypeScript ────────────────────────────────────────────────────────
+api/node_modules/
+api/dist/
+mobile/node_modules/
+mobile/.expo/
+mobile/dist/
+node_modules/
+
+# ─── Expo / React Native ──────────────────────────────────────────────────────
+mobile/.expo-shared/
+mobile/android/
+mobile/ios/
+mobile/.env
+mobile/.env.local
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Claude ───────────────────────────────────────────────────────────────────
+.claude/settings.local.json
