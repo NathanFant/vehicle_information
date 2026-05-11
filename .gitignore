@@ -21,6 +21,8 @@ api/dist/
 mobile/node_modules/
 mobile/.expo/
 mobile/dist/
+web/node_modules/
+web/dist/
 node_modules/
 
 # ─── Expo / React Native ──────────────────────────────────────────────────────

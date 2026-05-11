@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from .routers import vin
+from .routers import vin, plate
 
 app = FastAPI(
     title="Vehicle History Intelligence API",
@@ -17,6 +17,7 @@ app.add_middleware(
 )
 
 app.include_router(vin.router)
+app.include_router(plate.router)
 
 
 @app.get("/health")
